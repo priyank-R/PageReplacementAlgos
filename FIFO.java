@@ -1,4 +1,5 @@
-package PageReplacementAlgorithms;
+package PageReplacementAlgorithms;      //Creating a package is optional. 
+                                    //If you don't wish to create a package, call the method of FIFO directly in the mainClass (Given below)
 import java.util.Scanner;
 public class FIFO
 {
@@ -95,3 +96,12 @@ public class FIFO
 
 
 }
+
+/*class mainClass-> If one doesn't want to create the whole package
+{
+    FIFO obj = new FIFO();
+    public static void main(String args[])
+    {
+        obj.Operation();
+     }
+ }
